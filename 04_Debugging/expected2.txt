@@ -1,0 +1,8 @@
+@@@ start=-100 stop=100 step=3 current=-19 idx=27
+@@@ start=-100 stop=100 step=3 current=-16 idx=28
+@@@ start=-100 stop=100 step=3 current=-13 idx=29
+@@@ start=-100 stop=100 step=3 current=-10 idx=30
+@@@ start=-100 stop=100 step=3 current=-7 idx=31
+@@@ start=-100 stop=100 step=3 current=-4 idx=32
+@@@ start=-100 stop=100 step=3 current=-1 idx=33
+@@@ start=-100 stop=100 step=3 current=2 idx=34
