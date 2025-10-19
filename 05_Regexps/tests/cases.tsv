@@ -1,0 +1,8 @@
+([0-9]+)	X\1Y	abc123def
+^([A-Za-z_][A-Za-z0-9_]*)[[:space:]]*\(	\1	main() { return 0; }
+([a-z]+)	\\\1	foo
+([A-Za-z]+)[[:space:]]+([A-Za-z]+)	\2, \1!	Hello   World
+(cat)	dog	concatenate
+^(.)(.*)(.)$	[\1-\3]	ab
+([0-9]{4})-([0-9]{2})-([0-9]{2})	\3/\2/\1	2025-10-19
+no-match	this	xyz
