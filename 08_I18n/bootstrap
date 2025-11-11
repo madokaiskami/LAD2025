@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${AUTORECONF:=autoreconf}"
+mkdir -p m4
+if command -v autopoint >/dev/null 2>&1; then
+  autopoint --force
+else
+  echo "ERROR: autopoint not found. Install gettext/autopoint." >&2
+  exit 1
+fi
+$AUTORECONF -fisv
+echo "Now run: ./configure --prefix=$(pwd)/_inst && make && make install"

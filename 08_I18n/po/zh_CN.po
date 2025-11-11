@@ -1,0 +1,42 @@
+# Simplified Chinese translations for guessnum.
+msgid ""
+msgstr ""
+"Project-Id-Version: guessnum 0.1\n"
+"Report-Msgid-Bugs-To: n/a\n"
+"POT-Creation-Date: 2025-11-11 00:00+0000\n"
+"PO-Revision-Date: 2025-11-11 00:00+0000\n"
+"Last-Translator: Auto <auto@example.com>\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/guessnum.c
+msgid "Think of a number from 1 to 100, then press Enter."
+msgstr "请先默想一个 1 到 100 的数字，然后按回车。"
+
+#: src/guessnum.c
+msgid "Is your number greater than %d? (\"%s\"/\"%s\"): "
+msgstr "你的数字是否大于 %d？（\"%s\"/\"%s\"）："
+
+#: src/guessnum.c
+msgid "Yes"
+msgstr "是"
+
+#: src/guessnum.c
+msgid "No"
+msgstr "否"
+
+#: src/guessnum.c
+msgid "\nError: input closed (EOF). Aborting.\n"
+msgstr "\n错误：输入已关闭（EOF）。程序退出。\n"
+
+#: src/guessnum.c
+msgid "Invalid answer. Please type exactly \"%s\" or \"%s\".\n"
+msgstr "无效回答。请严格键入 \"%s\" 或 \"%s\"。\n"
+
+#: src/guessnum.c
+msgid "Guessed! Your number is %d.\n"
+msgstr "猜到了！你的数字是 %d。\n"
