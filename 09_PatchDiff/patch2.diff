@@ -1,0 +1,37 @@
+--- maze_v1.c	2025-11-24 12:49:59.644335490 +0000
++++ maze_v2.c	2025-11-24 12:49:59.644558317 +0000
+@@ -140,19 +140,27 @@
+ }
+ 
+ int main(int argc, char *argv[]) {
+-    if (argc != 2) {
+-        fprintf(stderr, "Usage: %s SIZE\n", argv[0]);
++    if (argc != 3) {
++        fprintf(stderr, "Usage: %s PW SIZE\n", argv[0]);
++        fprintf(stderr, "  PW   - two characters: passage and wall\n");
++        fprintf(stderr, "  SIZE - maze size (number of rooms per side)\n");
+         return EXIT_FAILURE;
+     }
+ 
+-    int size = atoi(argv[1]);
+-    if (size <= 0) {
+-        fprintf(stderr, "Invalid SIZE: %s\n", argv[1]);
++    const char *pw = argv[1];
++    if (!pw[0] || !pw[1]) {
++        fprintf(stderr, "First parameter must contain at least two characters\n");
+         return EXIT_FAILURE;
+     }
+ 
+-    char passage = '.';
+-    char wall = '#';
++    char passage = pw[0];
++    char wall = pw[1];
++
++    int size = atoi(argv[2]);
++    if (size <= 0) {
++        fprintf(stderr, "Invalid SIZE: %s\n", argv[2]);
++        return EXIT_FAILURE;
++    }
+ 
+     srand((unsigned int)time(NULL));
+     generate_maze(size, passage, wall);

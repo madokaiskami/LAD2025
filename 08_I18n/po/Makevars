@@ -1,0 +1,11 @@
+# Minimal Makevars for gettext
+DOMAIN = guessnum
+subdir = po
+top_builddir = ..
+
+PACKAGE = guessnum
+VERSION = 0.1
+COPYRIGHT_HOLDER = Guessnum Authors
+MSGID_BUGS_ADDRESS = n/a
+
+XGETTEXT_OPTIONS = --keyword=_ --from-code=UTF-8

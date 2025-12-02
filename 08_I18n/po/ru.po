@@ -1,0 +1,42 @@
+# Russian translations for guessnum.
+msgid ""
+msgstr ""
+"Project-Id-Version: guessnum 0.1\n"
+"Report-Msgid-Bugs-To: n/a\n"
+"POT-Creation-Date: 2025-11-11 00:00+0000\n"
+"PO-Revision-Date: 2025-11-11 00:00+0000\n"
+"Last-Translator: Auto <auto@example.com>\n"
+"Language-Team: ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/guessnum.c
+msgid "Think of a number from 1 to 100, then press Enter."
+msgstr "Загадайте число от 1 до 100 и нажмите Enter."
+
+#: src/guessnum.c
+msgid "Is your number greater than %d? (\"%s\"/\"%s\"): "
+msgstr "Ваше число больше %d? (\"%s\"/\"%s\"): "
+
+#: src/guessnum.c
+msgid "Yes"
+msgstr "Да"
+
+#: src/guessnum.c
+msgid "No"
+msgstr "Нет"
+
+#: src/guessnum.c
+msgid "\nError: input closed (EOF). Aborting.\n"
+msgstr "\nОшибка: ввод закрыт (EOF). Прерывание.\n"
+
+#: src/guessnum.c
+msgid "Invalid answer. Please type exactly \"%s\" or \"%s\".\n"
+msgstr "Неверный ответ. Введите строго \"%s\" или \"%s\".\n"
+
+#: src/guessnum.c
+msgid "Guessed! Your number is %d.\n"
+msgstr "Угадал! Ваше число — %d.\n"

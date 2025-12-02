@@ -1,0 +1,23 @@
+--- maze.c	2025-11-24 12:49:59.644112418 +0000
++++ maze_v1.c	2025-11-24 12:49:59.644335490 +0000
+@@ -139,8 +139,18 @@
+     free(stack_c);
+ }
+ 
+-int main(void) {
+-    int size = 6;
++int main(int argc, char *argv[]) {
++    if (argc != 2) {
++        fprintf(stderr, "Usage: %s SIZE\n", argv[0]);
++        return EXIT_FAILURE;
++    }
++
++    int size = atoi(argv[1]);
++    if (size <= 0) {
++        fprintf(stderr, "Invalid SIZE: %s\n", argv[1]);
++        return EXIT_FAILURE;
++    }
++
+     char passage = '.';
+     char wall = '#';
+ 
