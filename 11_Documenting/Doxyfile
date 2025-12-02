@@ -1,0 +1,25 @@
+\
+    # Minimal Doxygen configuration for number-game project.
+
+    PROJECT_NAME           = "number-game"
+    OUTPUT_DIRECTORY       = doxygen-doc
+    CREATE_SUBDIRS         = NO
+
+    INPUT                  = .
+    FILE_PATTERNS          = *.c \
+                             *.h \
+                             *.dox
+    RECURSIVE              = NO
+
+    EXTRACT_ALL            = YES
+    EXTRACT_PRIVATE        = YES
+    EXTRACT_STATIC         = YES
+
+    GENERATE_HTML          = YES
+    HTML_OUTPUT            = html
+
+    GENERATE_LATEX         = NO
+    GENERATE_MAN           = NO
+
+    QUIET                  = NO
+    WARNINGS               = YES

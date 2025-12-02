@@ -1,0 +1,35 @@
+\
+    /** @mainpage number-game — Игра «Угадай число»
+     *
+     * @section intro Introduction
+     *
+     * Это главная страница документации, содержащая то же самое содержательное
+     * описание, что и пользовательский вывод опции --help программы.
+     *
+     * @section usage Usage / Использование
+     *
+     * @code
+     * number-game [OPTIONS]
+     * @endcode
+     *
+     * @section options Options / Опции
+     *
+     * - -r, --roman
+     *   - Use Roman numerals (1..100) / Использовать римские числа (1..100)
+     * - -h, --help
+     *   - Show this help and exit / Показать эту справку и выйти
+     * - --help-md
+     *   - Show help in Markdown/Doxygen format /
+     *     Показать справку в формате Markdown/Doxygen
+     * - -V, --version
+     *   - Show program version and exit /
+     *     Показать версию программы и выйти
+     *
+     * @section desc Description / Описание
+     *
+     * The program chooses a secret number between 1 and 100 and asks you to
+     * guess it.
+     *
+     * Программа загадывает число в диапазоне от 1 до 100 и предлагает вам
+     * его угадать.
+     */
