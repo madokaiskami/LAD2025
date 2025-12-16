@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: greeter\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Hello, traveler!"
+msgstr "Hello, traveler!"
+
+msgid "Hello, %s!"
+msgstr "Hello, %s!"
+
+msgid "Usage: %s [--name NAME]\n"
+msgstr "Usage: %s [--name NAME]\n"
+
+msgid "Options:\n"
+msgstr "Options:\n"
+
+msgid "  --name, -n   Name to greet\n"
+msgstr "  --name, -n   Name to greet\n"
+
+msgid "  --help, -h   Show this help message\n"
+msgstr "  --help, -h   Show this help message\n"
+
+msgid "Name too long.\n"
+msgstr "Name too long.\n"

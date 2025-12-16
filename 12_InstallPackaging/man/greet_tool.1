@@ -1,0 +1,30 @@
+.TH GREET_TOOL 1 "December 2024" "Greeter" "User Commands"
+.SH NAME
+greet_tool \- localized greeting demo
+.SH SYNOPSIS
+.B greet_tool
+.RI [ --name " NAME" ]
+.SH DESCRIPTION
+The
+.B greet_tool
+utility prints a localized greeting. It links against the shared library
+.B libgreeter
+which provides the actual message formatting.
+.SH OPTIONS
+.TP
+.BR -n , " --name "
+Provide a name to greet. If omitted, a generic greeting is used.
+.TP
+.BR -h , " --help "
+Show usage information.
+.SH ENVIRONMENT
+.TP
+.B LANG
+Selects the locale used to look up translations. For example:
+.BR "LANG=ru_RU.UTF-8 greet_tool --name Ada" .
+.SH FILES
+.TP
+.I /usr/share/locale/*/LC_MESSAGES/greeter.mo
+Translation catalogs installed with the project.
+.SH SEE ALSO
+.BR gettext (1)

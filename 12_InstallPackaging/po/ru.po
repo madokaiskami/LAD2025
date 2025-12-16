@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: greeter\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Hello, traveler!"
+msgstr "Здравствуйте, путешественник!"
+
+msgid "Hello, %s!"
+msgstr "Здравствуйте, %s!"
+
+msgid "Usage: %s [--name NAME]\n"
+msgstr "Использование: %s [--name ИМЯ]\n"
+
+msgid "Options:\n"
+msgstr "Параметры:\n"
+
+msgid "  --name, -n   Name to greet\n"
+msgstr "  --name, -n   Имя для приветствия\n"
+
+msgid "  --help, -h   Show this help message\n"
+msgstr "  --help, -h   Показать эту подсказку\n"
+
+msgid "Name too long.\n"
+msgstr "Слишком длинное имя.\n"
